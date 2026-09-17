@@ -1,20 +1,22 @@
-# built application files
-*.apk
-*.ap_
+# Dependencies
+node_modules
 
-# files for the dex VM
-*.dex
+# Build
+dist
+build
+.next
+coverage
 
-# Java class files
-*.class
+# Logs
+*.log
 
-# generated files
-bin/
-gen/
+# Environment
+.env
+.env.*
 
-# Local configuration file (sdk path, etc)
-local.properties
+# IDE
+.vscode
+.idea
 
-# Eclipse project files
-.classpath
-.project
+# macOS
+.DS_Store
